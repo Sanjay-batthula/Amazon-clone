@@ -4,10 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Amazon-Clone</title>
 </head>
 <body>
     <main>
+        <!-- Header -->
+    <header>
+        <img src="logo.png" alt="Amazon Logo" class="logo">
+        
+        <div class="location-container">
+            <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0C3.6 0 0 3.1 0 7C0 11.5 7 18 8 18C9 18 16 11.5 16 7C16 3.1 12.4 0 8 0ZM8 9C6.9 9 6 8.1 6 7C6 5.9 6.9 5 8 5C9.1 5 10 5.9 10 7C10 8.1 9.1 9 8 9Z" fill="white"/>
+            </svg>
+            <div class="location-text">
+                Deliver to<br>
+                <span>Select your address</span>
+            </div>
+        </div>
+        
+        <div class="search-container">
+            <select class="search-select">
+                <option>All</option>
+            </select>
+            <input type="text" class="search-input" placeholder="Search Amazon.in">
+            <button class="search-button">
+                <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.8 18.4L14.5 13.1C15.7 11.6 16.5 9.7 16.5 7.5C16.5 3.4 13.1 0 9 0C4.9 0 1.5 3.4 1.5 7.5C1.5 11.6 4.9 15 9 15C11.2 15 13.1 14.2 14.6 13L19.9 18.3C20 18.4 20.1 18.5 20.3 18.5C20.4 18.5 20.6 18.4 20.7 18.3C20.9 18.1 20.9 17.7 19.8 18.4ZM9 13.5C5.7 13.5 3 10.8 3 7.5C3 4.2 5.7 1.5 9 1.5C12.3 1.5 15 4.2 15 7.5C15 10.8 12.3 13.5 9 13.5Z" fill="#333"/>
+                </svg>
+            </button>
+        </div>
+        
+        <div class="nav-item">
+            <div class="nav-item-sub">Hello, sign in</div>
+            <div class="nav-item-main">Account & Lists</div>
+        </div>
+        
+        <div class="nav-item">
+            <div class="nav-item-sub">Returns</div>
+            <div class="nav-item-main">& Orders</div>
+        </div>
+        
+        <div class="nav-item cart">
+            <i class="fa fa-shopping-cart cart-icon"></i>
+            <span class="cart-text">Cart</span>
+        </div>
+        
+    </header>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-item">
+            <span class="menu-icon">☰</span>
+            All
+        </div>
+        
+        <ul class="nav-links">
+            <li>Best Sellers</li>
+            <li>Mobiles</li>
+            <li>Customer Service</li>
+            <li>Today's Deals</li>
+            <li>Fashion</li>
+            <li>Electronics</li>
+            <li>Prime</li>
+            <li>Home & Kitchen</li>
+            <li>Amazon Pay</li>
+        </ul>
+    </nav>
+    
         <section class="products">
             <div class="product-card">
                 <img src="phone.jpeg" alt="Product 1">

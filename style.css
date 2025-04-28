@@ -1,3 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e3e6e6;
+}
+
+/* Header Styles */
+header {
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+}
+
+.logo {
+    height: 30px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.location-container {
+    display: flex;
+    align-items: center;
+    color: #ccc;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.location-container:hover {
+    border: 1px solid #fff;
+}
+
+.location-text {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.location-text span {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.search-container {
+    flex-grow: 1;
+    display: flex;
+    margin: 0 10px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    padding: 8px;
+    color: #555;
+    cursor: pointer;
+}
+
+.search-input {
+    flex-grow: 1;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.search-button {
+    background-color: #febd69;
+    border: none;
+    width: 45px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.nav-item {
+    padding: 5px;
+    margin: 0 5px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    border: 1px solid #fff;
+}
+
+.nav-item-main {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-item-sub {
+    font-size: 12px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart-icon {
+    width: 35px;
+}
+
+.cart-text {
+    font-weight: bold;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+}
+
+.menu-icon {
+    margin-right: 5px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+.nav-links li:hover {
+    border: 1px solid #fff;
+}
+
+
 .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
