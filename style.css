@@ -143,6 +143,30 @@ header {
     border: 1px solid #fff;
 }
 
+ /* Hero banner */
+.hero-section {
+    position: relative;
+    height: 280px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(227,230,230,1));
+}
+
+
 
 .products {
     display: grid;
@@ -209,3 +233,5 @@ header {
 .product-card button:hover {
     background: #F7CA00;
 }
+
+
