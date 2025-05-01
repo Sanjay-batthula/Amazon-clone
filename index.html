@@ -106,7 +106,16 @@
     </nav>
 
     <div class="hero-section">
-        <img src="./hero.jpg" alt="Amazon Offers" class="hero-image">
+        <div class="carousel">
+            <div class="carousel-inner">
+                <img src="./assets/heroimg1.jpg" alt="Hero 1" class="carousel-item active">
+                <img src="./assets/heroimg2.jpg" alt="Hero 2" class="carousel-item">
+                <img src="./assets/heroimg3.jpg" alt="Hero 3" class="carousel-item">
+                <img src="./assets/heroimg4.jpg" alt="Hero 4" class="carousel-item">
+            </div>
+            <button class="carousel-control prev" onclick="prevSlide()">❮</button>
+            <button class="carousel-control next" onclick="nextSlide()">❯</button>
+        </div>
         <div class="gradient-overlay"></div>
     </div>
     
