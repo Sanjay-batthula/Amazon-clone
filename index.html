@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- <link rel="icon" type="image/jpg" href="assets/a.jpg"> -->
     <title>Amazon-Clone</title>
+
 </head>
 <body>
     <main>
         <!-- Header -->
     <header>
-        <img src="logo.png" alt="Amazon Logo" class="logo">
+        <img src="./assets/logo.png" alt="Amazon Logo" class="logo" style="width: 100px; height: auto;">
         
         <div class="location-container">
             <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -119,44 +121,171 @@
         <div class="gradient-overlay"></div>
     </div>
     
-        <section class="products">
-            <div class="product-card">
-                <img src="phone.jpeg" alt="Product 1">
-                <h3>iPhone 16</h3>
-                <p>$XX.XX</p>
-                <button>Add to Cart</button>
+
+<!-- Product Grid -->
+    <div class="products-grid">
+        <!-- Card 1 -->
+        <div class="product-card">
+            <h2>Deals on accessories from your top smartphone brands</h2>
+            <div class="product-items">
+                <div class="product-item">
+                    <img src="./assets/cards/apple.jpg" alt="Apple">
+                    <p>Apple | Up to 20%</p>
+                </div>
+                <div class="product-item">
+                    <img src="./assets/cards/samsung.jpg" alt="samsung">
+                    <p>Samsung | Up to 60% off</p>
+                </div>
+                <div class="product-item">
+                    <img src="./assets/cards/oneplus.jpg" alt="oneplus">
+                    <p>Oneplus | Starting ₹599</p>
+                </div>
+                <div class="product-item">
+                    <img src="./assets/cards/xiaomi.jpg" alt="xiaomi">
+                    <p>Xiaomi | Up to 70% off</p>
+                </div>
             </div>
-            <div class="product-card">
-                <img src="watch.jpeg" alt="Product 2">
-                <h3>Watch</h3>
-                <p>$XX.XX</p>
-                <button>Add to Cart</button>
+            <div class="see-more">See all offers</div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="product-card">
+            <h2>Smartphones curated for you</h2>
+            <div class="product-items">
+                <div class="product-item">
+                    <img src="assets/cards/smartphone1.jpg" alt="Phone1">
+                    <p>Budget | Under ₹10,000</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/cards/smartphone2.jpg" alt="Phone2">
+                    <p>Mid-range | ₹10,000 - ₹25,000</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/cards/smartphone3.jpg" alt="Phone3">
+                    <p>Premium | ₹25,000 - ₹40,000</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/cards/smartphone4.jpg" alt="Phone4">
+                    <p>Ultra Premium | Above ₹40,000</p>
+                </div>
             </div>
-            <div class="product-card">
-                <img src="phone.jpeg" alt="Product 1">
-                <h3>iPhone 16</h3>
-                <p>$XX.XX</p>
-                <button>Add to Cart</button>
+            <div class="see-more">See all offers</div>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="product-card">
+            <h2>Starting ₹349 | Bestselling headphones</h2>
+            <div class="product-items">
+                <img src="assets/cards/headphone.jpg" alt="Headphones" style="width:200%; height: auto; object-fit: cover;">
             </div>
-            <div class="product-card">
-                <img src="watch.jpeg" alt="Product 2">
-                <h3>Watch</h3>
-                <p>$XX.XX</p>
-                <button>Add to Cart</button>
+            <div class="see-more">Shop all categories</div>
+        </div>
+        
+        <!-- Card 4 -->
+        <div class="product-card">
+            <h2>Electronics & Accessories</h2>
+            <div class="product-items">
+                <img src="assets/cards/electronics.jpg" alt="Electronics" style="width:200%; height: auto; object-fit: cover;">
             </div>
-            <div class="product-card">
-                <img src="phone.jpeg" alt="Product 1">
-                <h3>iPhone 16</h3>
-                <p>$XX.XX</p>
-                <button>Add to Cart</button>
+            <div class="see-more">Shop all categories</div>
+        </div>
+        
+        <!-- Card 5 -->
+        <div class="product-card">
+            <h2>Minimum 50% off | Home, kitchen & more</h2>
+            <div class="product-items">
+                <div class="product-item">
+                    <img src="assets/cards/Kitchenessentials.jpg" alt="Deal 1">
+                    <p>Kitchen essentials</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/cards/homedecor.jpg" alt="Deal 2">
+                    <p>Home decor</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/cards/electronics.jpg" alt="Deal 3">
+                    <p>Furniture</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/cards/homeimprovement.jpg" alt="Deal 4">
+                    <p>Home improvement</p>
+                </div>
             </div>
-            <div class="product-card">
-                <img src="watch.jpeg" alt="Product 2">
-                <h3>Watch</h3>
-                <p>$XX.XX</p>
-                <button>Add to Cart</button>
+            <div class="see-more">See all deals</div>
+        </div>
+        
+        <!-- Card 6 -->
+        <div class="product-card">
+            <h2>Starting ₹299 | Latest styles from top brands</h2>
+            <div class="product-items">
+                <div class="product-item">
+                    <img src="assets/cards/crocs.jpg" alt="img1">
+                    <p>Crocs</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/cards/adidas.jpg" alt="img2">
+                    <p>Adidas</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/cards/skechers.jpg" alt="img3">
+                    <p>Skechers</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/cards/lavie.jpg" alt="img4">
+                    <p>Lavie</p>
+                </div>
             </div>
-        </section>
+            <div class="see-more">See all details</div>
+        </div>
+       
+        <!-- Card 7 -->
+        <div class="product-card">
+            <h2>Up to 60% off | Daily needs</h2>
+            <div class="product-items">
+                <div class="product-item">
+                    <img src="assets/cards/homecare.jpg" alt="Cleaning">
+                    <p>Cleaning & home care</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/cards/beverages.jpg" alt="Food & Beverages">
+                    <p>Food & beverages</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/cards/babycare.jpg" alt="Baby Care">
+                    <p>Baby care</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/cards/petcare.jpg" alt="Pet Care">
+                    <p>Pet care</p>
+                </div>
+            </div>
+            <div class="see-more">See all offers</div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="product-card">
+            <h2>Starting ₹299 | Latest styles from top brands</h2>
+            <div class="product-items">
+                <div class="product-item">
+                    <img src="assets/cards/kurtas.jpg" alt="Kurtas">
+                    <p>Kurtas</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/cards/tops.jpg" alt="Tops">
+                    <p>Tops</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/cards/dresses.jpg" alt="Dresses">
+                    <p>Dresses</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/cards/sarees.jpg" alt="Sarees">
+                    <p>Sarees</p>
+                </div>
+            </div>
+            <div class="see-more">See all deals</div>
+        </div>
+    </div>        
     </main>
     <script src="script.js"></script>
 </body>
