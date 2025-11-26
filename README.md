@@ -1,4 +1,4 @@
-# 🚀 Amazon Clone — HTML, CSS, JS
+# 🚀 Amazon Clone 
 
 A fully responsive **Amazon Homepage Clone** built using **HTML**, **CSS**, and **JavaScript**.  
 This project is a pixel-accurate recreation of Amazon’s UI, focusing on clean layout structure, responsiveness, and user-friendly interactions — all built without any frameworks.
